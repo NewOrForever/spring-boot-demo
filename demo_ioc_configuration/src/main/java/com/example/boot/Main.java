@@ -1,6 +1,5 @@
 package com.example.boot;
 
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

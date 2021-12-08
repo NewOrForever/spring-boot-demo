@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/demo_ioc_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/demo_ioc_mybatis_generator/pom.xml" />
         <option value="$PROJECT_DIR$/demo_ioc_mybatis_multi_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-learn/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

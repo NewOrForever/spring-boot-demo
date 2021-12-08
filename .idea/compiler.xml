@@ -10,14 +10,15 @@
         <module name="demo_ioc_mybatis" />
         <module name="demo_common" />
         <module name="demo_ioc_mybatis_multi_datasource" />
-        <module name="demo_ioc" />
-        <module name="demo_ioc_import" />
         <module name="demo_ioc_mybatis_generator" />
         <module name="demo_ioc_factories_core" />
         <module name="demo_validator" />
         <module name="demo_ioc_scan" />
+        <module name="spring-learn" />
         <module name="demo_ioc_factories" />
         <module name="HelloWorld" />
+        <module name="demo_ioc" />
+        <module name="demo_ioc_import" />
         <module name="demo_ioc_configuration" />
       </profile>
     </annotationProcessing>
@@ -37,6 +38,7 @@
       <module name="demo_ioc_scan" target="1.8" />
       <module name="demo_validator" target="1.8" />
       <module name="HelloWorld" target="1.8" />
+      <module name="spring-learn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -56,6 +58,7 @@
       <module name="demo_ioc_mybatis_multi_datasource" options="-parameters" />
       <module name="demo_ioc_scan" options="-parameters" />
       <module name="demo_validator" options="-parameters" />
+      <module name="spring-learn" options="-parameters" />
     </option>
   </component>
 </project>
