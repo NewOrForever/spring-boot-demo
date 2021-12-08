@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_validator/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc_configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc_scan/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc_import/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc_factories/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc_factories_core/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc_mybatis_generator/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ioc_mybatis_multi_datasource/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/demo-validator/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

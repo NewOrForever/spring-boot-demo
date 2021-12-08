@@ -1,0 +1,33 @@
+#properties
+##随机端口
+##server.port=${random.int[1024,9999]}
+#server.port=9090
+#
+##常量配置
+#HELLO.MSG=哈~hello world！
+
+#yml
+#以缩进程度来区分层级关系
+server:
+  port: 9090
+
+
+HELLO:
+  MSG: helo world
+
+SPRING:
+  SWAGGER2:
+    ENABLED: true
+
+
+#日志配置
+logging:
+  level:
+    com.example.boot: trace
+  file:
+#    path: e:\idea\logs
+    name: e:/idea/logs/springboot.log
+    #以下配置效果为：项目根目录下/output/logs/spring.log,默认的日志名为spring.log
+    #path: output/logs
+    #file.path和file.name同时配置的情况，只有file.name会生效，若没有指定具体路径，则会在项目的根目录下生成name.log文件
+    #只配置file.path则会在该路径下生成默认的spring.log文件

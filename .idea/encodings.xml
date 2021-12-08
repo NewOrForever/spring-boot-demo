@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/HelloWorld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc_configuration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc_factories/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc_factories_core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc_import/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc_mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc_mybatis_generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc_mybatis_multi_datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_ioc_scan/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_validator/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

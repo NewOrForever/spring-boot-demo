@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo_ioc_mybatis" />
+        <module name="demo_common" />
+        <module name="demo_ioc_mybatis_multi_datasource" />
+        <module name="demo_ioc" />
+        <module name="demo_ioc_import" />
+        <module name="demo_ioc_mybatis_generator" />
+        <module name="demo_ioc_factories_core" />
+        <module name="demo_validator" />
+        <module name="demo_ioc_scan" />
+        <module name="demo_ioc_factories" />
+        <module name="HelloWorld" />
+        <module name="demo_ioc_configuration" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-demo" target="1.8" />
+      <module name="demo-common" target="1.7" />
+      <module name="demo-validator" target="1.7" />
+      <module name="demo_common" target="1.8" />
+      <module name="demo_ioc" target="1.8" />
+      <module name="demo_ioc_configuration" target="1.8" />
+      <module name="demo_ioc_factories" target="1.8" />
+      <module name="demo_ioc_factories_core" target="1.8" />
+      <module name="demo_ioc_import" target="1.8" />
+      <module name="demo_ioc_mybatis" target="1.8" />
+      <module name="demo_ioc_mybatis_generator" target="1.8" />
+      <module name="demo_ioc_mybatis_multi_datasource" target="1.8" />
+      <module name="demo_ioc_scan" target="1.8" />
+      <module name="demo_validator" target="1.8" />
+      <module name="HelloWorld" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HelloWorld" options="-parameters" />
+      <module name="boot-demo" options="-parameters" />
+      <module name="demo-common" options="" />
+      <module name="demo-validator" options="" />
+      <module name="demo_common" options="-parameters" />
+      <module name="demo_ioc" options="-parameters" />
+      <module name="demo_ioc_configuration" options="-parameters" />
+      <module name="demo_ioc_factories" options="-parameters" />
+      <module name="demo_ioc_factories_core" options="-parameters" />
+      <module name="demo_ioc_import" options="-parameters" />
+      <module name="demo_ioc_mybatis" options="-parameters" />
+      <module name="demo_ioc_mybatis_generator" options="" />
+      <module name="demo_ioc_mybatis_multi_datasource" options="-parameters" />
+      <module name="demo_ioc_scan" options="-parameters" />
+      <module name="demo_validator" options="-parameters" />
+    </option>
+  </component>
+</project>
