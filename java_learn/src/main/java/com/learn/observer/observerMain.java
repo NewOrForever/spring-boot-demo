@@ -1,8 +1,5 @@
-package com.example.boot;
+package com.learn.observer;
 
-import com.example.boot.observer.Employee;
-import com.example.boot.observer.Student;
-import com.example.boot.observer.WeatherStation;
 
 /**
  * ClassName:main
@@ -12,7 +9,7 @@ import com.example.boot.observer.WeatherStation;
  * @Date:2021/11/25 9:52
  * @Author:qs@1.com
  */
-public class main {
+public class observerMain {
     public static void main(String[] args) {
         String str = "我我...我我...我要..要要...要要...学学学..学学...编编编编....编程..程....程程程程..程.";
 //        Pattern pattern = Pattern.compile("//.{2,}");

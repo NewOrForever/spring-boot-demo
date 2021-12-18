@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ioc_mybatis_multi_datasource/demo_ioc_mybatis_multi_datasource.iml" filepath="$PROJECT_DIR$/demo_ioc_mybatis_multi_datasource/demo_ioc_mybatis_multi_datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ioc_scan/demo_ioc_scan.iml" filepath="$PROJECT_DIR$/demo_ioc_scan/demo_ioc_scan.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_validator/demo_validator.iml" filepath="$PROJECT_DIR$/demo_validator/demo_validator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_learn/java_learn.iml" filepath="$PROJECT_DIR$/java_learn/java_learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-learn/spring-learn.iml" filepath="$PROJECT_DIR$/spring-learn/spring-learn.iml" />
     </modules>
   </component>

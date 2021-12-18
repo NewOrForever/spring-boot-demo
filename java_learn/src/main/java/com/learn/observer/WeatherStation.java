@@ -1,4 +1,4 @@
-package com.example.boot.observer;
+package com.learn.observer;
 
 import java.util.ArrayList;
 import java.util.List;

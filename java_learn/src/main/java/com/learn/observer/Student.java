@@ -1,4 +1,4 @@
-package com.example.boot.observer;
+package com.learn.observer;
 
 /**
  * ClassName:Student

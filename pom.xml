@@ -20,6 +20,7 @@
         <module>HelloWorld</module>
         <module>demo_common</module>
         <module>demo_validator</module>
+        <module>java_learn</module>
     </modules>
 
     <properties>

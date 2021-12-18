@@ -19,6 +19,7 @@
         <module name="HelloWorld" />
         <module name="demo_ioc" />
         <module name="demo_ioc_import" />
+        <module name="java_learn" />
         <module name="demo_ioc_configuration" />
       </profile>
     </annotationProcessing>
@@ -38,6 +39,7 @@
       <module name="demo_ioc_scan" target="1.8" />
       <module name="demo_validator" target="1.8" />
       <module name="HelloWorld" target="1.8" />
+      <module name="java_learn" target="8" />
       <module name="spring-learn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -58,6 +60,7 @@
       <module name="demo_ioc_mybatis_multi_datasource" options="-parameters" />
       <module name="demo_ioc_scan" options="-parameters" />
       <module name="demo_validator" options="-parameters" />
+      <module name="java_learn" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>
   </component>
