@@ -13,8 +13,5 @@ public class CgUser {
         System.out.println("这是cgUser：" + this.toString());
     }
 
-    @Override
-    public String toString() {
-        return  "tostring";
-    }
+
 }
