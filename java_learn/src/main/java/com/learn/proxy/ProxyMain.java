@@ -5,6 +5,9 @@ import com.learn.proxy.cglib.CgUserProxyFactory;
 import com.learn.proxy.jdkProxy.IJdkUser;
 import com.learn.proxy.jdkProxy.JdkUser;
 import com.learn.proxy.jdkProxy.JdkUserProxyFactory;
+import com.learn.proxy.mockAop.Aop;
+import com.learn.proxy.mockAop.AopUserService;
+import com.learn.proxy.mockAop.AopUserServiceProxyFactory;
 import com.learn.proxy.staticProxy.User;
 import com.learn.proxy.staticProxy.UserProxy;
 import com.learn.proxy.staticProxy.UserService;
@@ -62,6 +65,12 @@ public class ProxyMain {
         System.out.println(cgUserProxy);
         cgUserProxy.execute();
 
+        /**
+         * 使用cglib动态代理来简易的模拟一个springaop
+         * 就是增加了一个切面类
+         */
+        AopUserService aopUserServiceProxy = (AopUserService)new AopUserServiceProxyFactory(new AopUserService(), new Aop()).getProxyInstance();
+        aopUserServiceProxy.execute();
     }
 
 
