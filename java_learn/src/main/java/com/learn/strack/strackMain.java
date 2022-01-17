@@ -20,6 +20,15 @@ import java.lang.reflect.Method;
  */
 public class strackMain {
     public static void main(String[] args) {
+        // string比较
+        String a = "abc";
+        String b = new String("abc");
+        System.out.println(a == b);
+        System.out.println(a.equals(b));
+
+        String aa = null;
+        System.out.println(aa.isEmpty());
+
         String str = "我我...我我...我要..要要...要要...学学学..学学...编编编编....编程..程....程程程程..程.";
 //        Pattern pattern = Pattern.compile("//.{2,}");
 //        Matcher matcher = pattern.matcher(str);
