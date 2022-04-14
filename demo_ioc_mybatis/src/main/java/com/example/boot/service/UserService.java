@@ -3,6 +3,7 @@ package com.example.boot.service;
 import com.example.boot.entity.User;
 import com.example.boot.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.session.RowBounds;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

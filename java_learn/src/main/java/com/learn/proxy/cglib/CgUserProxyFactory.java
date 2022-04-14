@@ -25,7 +25,7 @@ public class CgUserProxyFactory implements MethodInterceptor {
         Enhancer enhancer = new Enhancer();
         // 设置父类
         enhancer.setSuperclass(target.getClass());
-        // 设置回调函数
+        // 设置回调函数（拦截器）
         enhancer.setCallback(this);
         // 创建代理对象
         return enhancer.create();
