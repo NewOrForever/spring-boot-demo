@@ -22,6 +22,8 @@ public class AbstractMain extends MyAbstract{
         abstractMain.setName("abstractMain");
         abstractMain.setCode("code001");
         abstractMain.aaa();
+
+        aaa.test02();
     }
 
     @Override

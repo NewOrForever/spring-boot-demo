@@ -34,4 +34,8 @@ public abstract class MyAbstract {
     public void setCode(String code) {
         this.code = code;
     }
+
+    public void test01(){}
+    protected void test02(){}
+    private void test03(){}
 }
