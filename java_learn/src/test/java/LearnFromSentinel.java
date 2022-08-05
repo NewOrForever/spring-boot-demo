@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicReferenceArray;
 
 /**
  * ClassName:LearnFromSentinel
@@ -47,6 +48,20 @@ public class LearnFromSentinel {
             System.out.println(t.spi.name + "====>" + t.order);
         });
     }
+
+
+    @Test
+    public void testArray() {
+        int[] arr = new int[]{1,2,3,4,5,6};
+        System.out.println(arr[0]);
+
+        AtomicReferenceArray<Integer> atomicArr = new AtomicReferenceArray<Integer>(5);
+        atomicArr.set(0, 10);
+        atomicArr.set(1, 11);
+        System.out.println(atomicArr.get(1));
+    }
+
+
 
     private static volatile long currentTimeMillis;
 
