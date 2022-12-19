@@ -34,8 +34,16 @@ public class ScoreService {
         try {
             Thread.sleep(5 * 1000);
             log.info("------------积分处理------------");
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    // 添加线程池的名称
+    @Async("scorePoolTaskExecutor")
+    public void testEx() throws Exception {
+        log.info("------------teset------------");
+        throw new Exception("hahahahahhh");
     }
 }

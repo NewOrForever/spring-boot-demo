@@ -21,11 +21,12 @@
         <module>demo_common</module>
         <module>demo_validator</module>
         <module>java_learn</module>
+        <module>activiti_learn</module>
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
-<!--        <lombok.version>1.18.20</lombok.version>-->
+        <lombok.version>1.18.20</lombok.version>
         <spring-context.version>5.3.9</spring-context.version>
 
     </properties>

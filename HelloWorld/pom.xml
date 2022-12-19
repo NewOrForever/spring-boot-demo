@@ -7,7 +7,7 @@
         <artifactId>boot-demo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <!-- 子工程中需要配置该参数来定位到父工程，不然编译的时候会报错，这里和eclipse不一样 -->
-        <relativePath>../../boot-demo</relativePath> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>HelloWorld</artifactId>
@@ -40,6 +40,11 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 
     </dependencies>

@@ -8,7 +8,7 @@
         <groupId>com.example.boot</groupId>
         <artifactId>boot-demo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../../boot-demo</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>java_learn</artifactId>
@@ -46,6 +46,12 @@
         </dependency>
 
         <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+            <version>2.0.7</version>
+        </dependency>
+
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
@@ -56,5 +62,5 @@
     </dependencies>
 
 
-    
+
 </project>

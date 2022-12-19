@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/HelloWorld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activiti_learn/activiti_demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activiti_learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activiti_learn/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activity_learn/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo_common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo_ioc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo_ioc_configuration/src/main/java" charset="UTF-8" />
@@ -15,6 +19,8 @@
     <file url="file://$PROJECT_DIR$/demo_validator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java_learn/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot-demo.iml" filepath="$PROJECT_DIR$/boot-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_common/demo_common.iml" filepath="$PROJECT_DIR$/demo_common/demo_common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_ioc/demo_ioc.iml" filepath="$PROJECT_DIR$/demo_ioc/demo_ioc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_ioc_configuration/demo_ioc_configuration.iml" filepath="$PROJECT_DIR$/demo_ioc_configuration/demo_ioc_configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ioc_factories/demo_ioc_factories.iml" filepath="$PROJECT_DIR$/demo_ioc_factories/demo_ioc_factories.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ioc_factories_core/demo_ioc_factories_core.iml" filepath="$PROJECT_DIR$/demo_ioc_factories_core/demo_ioc_factories_core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_ioc_import/demo_ioc_import.iml" filepath="$PROJECT_DIR$/demo_ioc_import/demo_ioc_import.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_ioc_mybatis/demo_ioc_mybatis.iml" filepath="$PROJECT_DIR$/demo_ioc_mybatis/demo_ioc_mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_ioc_mybatis_generator/demo_ioc_mybatis_generator.iml" filepath="$PROJECT_DIR$/demo_ioc_mybatis_generator/demo_ioc_mybatis_generator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_ioc_mybatis_multi_datasource/demo_ioc_mybatis_multi_datasource.iml" filepath="$PROJECT_DIR$/demo_ioc_mybatis_multi_datasource/demo_ioc_mybatis_multi_datasource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_ioc_scan/demo_ioc_scan.iml" filepath="$PROJECT_DIR$/demo_ioc_scan/demo_ioc_scan.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_validator/demo_validator.iml" filepath="$PROJECT_DIR$/demo_validator/demo_validator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java_learn/java_learn.iml" filepath="$PROJECT_DIR$/java_learn/java_learn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-learn/spring-learn.iml" filepath="$PROJECT_DIR$/spring-learn/spring-learn.iml" />
     </modules>
   </component>
 </project>

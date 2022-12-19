@@ -6,7 +6,7 @@
         <groupId>com.example.boot</groupId>
         <artifactId>boot-demo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../../boot-demo</relativePath> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>demo_validator</artifactId>
@@ -45,11 +45,11 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-        <!--        <dependency>-->
-        <!--            <groupId>org.springframework.boot</groupId>-->
-        <!--            <artifactId>spring-boot-starter-test</artifactId>-->
-        <!--            <scope>test</scope>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

@@ -12,40 +12,35 @@
         <module name="demo_ioc_mybatis_multi_datasource" />
         <module name="demo_ioc_mybatis_generator" />
         <module name="demo_ioc_factories_core" />
-        <module name="demo_validator" />
         <module name="demo_ioc_scan" />
+        <module name="factories" />
+        <module name="demo_validator" />
         <module name="spring-learn" />
+        <module name="activiti_demo" />
         <module name="demo_ioc_factories" />
         <module name="HelloWorld" />
         <module name="demo_ioc" />
         <module name="demo_ioc_import" />
         <module name="java_learn" />
+        <module name="boot" />
         <module name="demo_ioc_configuration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="boot-demo" target="1.8" />
+      <module name="activity_learn" target="1.8" />
       <module name="demo-common" target="1.7" />
       <module name="demo-validator" target="1.7" />
-      <module name="demo_common" target="1.8" />
-      <module name="demo_ioc" target="1.8" />
-      <module name="demo_ioc_configuration" target="1.8" />
       <module name="demo_ioc_factories" target="1.8" />
       <module name="demo_ioc_factories_core" target="1.8" />
-      <module name="demo_ioc_import" target="1.8" />
-      <module name="demo_ioc_mybatis" target="1.8" />
-      <module name="demo_ioc_mybatis_generator" target="1.8" />
-      <module name="demo_ioc_mybatis_multi_datasource" target="1.8" />
-      <module name="demo_ioc_scan" target="1.8" />
-      <module name="demo_validator" target="1.8" />
-      <module name="HelloWorld" target="1.8" />
-      <module name="java_learn" target="8" />
-      <module name="spring-learn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="HelloWorld" options="-parameters" />
+      <module name="activiti_demo" options="-parameters" />
+      <module name="activiti_learn" options="-parameters" />
+      <module name="activity_learn" options="-parameters" />
+      <module name="boot" options="-parameters" />
       <module name="boot-demo" options="-parameters" />
       <module name="demo-common" options="" />
       <module name="demo-validator" options="" />
@@ -60,6 +55,7 @@
       <module name="demo_ioc_mybatis_multi_datasource" options="-parameters" />
       <module name="demo_ioc_scan" options="-parameters" />
       <module name="demo_validator" options="-parameters" />
+      <module name="factories" options="-parameters" />
       <module name="java_learn" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>

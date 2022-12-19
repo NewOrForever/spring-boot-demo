@@ -8,7 +8,6 @@
     <groupId>com.example.boot</groupId>
     <artifactId>boot-demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../../boot-demo</relativePath>
   </parent>
 
   <artifactId>demo_common</artifactId>
@@ -21,14 +20,12 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
-  <!-- lombok -->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
+      <version>${lombok.version}</version>
     </dependency>
-
   </dependencies>
-
 
 
 </project>
