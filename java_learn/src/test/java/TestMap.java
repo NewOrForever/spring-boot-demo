@@ -114,6 +114,17 @@ public class TestMap {
 
     }
 
+    @Test
+    public void testHashMapKeyRepeat() {
+        HashMap<String, String> map = new HashMap<>();
+        map.put("a", "abc");
+        map.put("a", "abd");
+        map.put("b", "abd");
+
+        map.forEach((k, v) -> System.out.println(k + "&" + v));
+        System.out.println("=================> hashmap key 不可重复");
+    }
+
     class A {
         private String name;
 

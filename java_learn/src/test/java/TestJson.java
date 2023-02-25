@@ -1,5 +1,6 @@
 import com.alibaba.fastjson2.*;
 
+import com.alibaba.fastjson2.annotation.JSONField;
 import org.junit.Test;
 
 import java.util.*;
@@ -40,6 +41,49 @@ public class TestJson {
         Matcher matcher = PHONE_PATTERN.matcher("15501693701");
         System.out.println(matcher.matches());
     }
+
+    @Test
+    public void testJsonBeanConvert() {
+        String json = "{\n" +
+                "  \"testId\" : \"1\",\n" +
+                "  \"testName\": \"name\"\n" +
+                "}";
+        MyTest myTest = JSON.parseObject(json, MyTest.class);
+        System.out.println(myTest);
+        myTest.setName("test001");
+        System.out.println(JSON.toJSONString(myTest));
+    }
+    static class MyTest {
+        @JSONField(name = "testId")
+        private String id;
+        private String name;
+
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
+        }
+
+        @JSONField(name = "testName")
+        public String getName() {
+            return name;
+        }
+        @JSONField(name = "testName")
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        @Override
+        public String toString() {
+            return "MyTest{" +
+                    "id='" + id + '\'' +
+                    ", name='" + name + '\'' +
+                    '}';
+        }
+    }
+
 
     @Test
     public void testTime() {
