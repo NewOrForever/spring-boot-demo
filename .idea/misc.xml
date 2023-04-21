@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/demo_ioc_mybatis_multi_datasource/pom.xml" />
         <option value="$PROJECT_DIR$/spring-learn/pom.xml" />
         <option value="$PROJECT_DIR$/java_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/gt_restful_sdk/pom.xml" />
+        <option value="$PROJECT_DIR$/my_rest_sdk/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

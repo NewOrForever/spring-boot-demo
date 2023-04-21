@@ -6,7 +6,7 @@
         <groupId>com.example.boot</groupId>
         <artifactId>boot-demo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../../boot-demo</relativePath> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>factories</artifactId>
@@ -15,6 +15,12 @@
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring-context.version}</version>
+        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.boot</groupId>-->
 <!--            <artifactId>spring-boot-starter</artifactId>-->
