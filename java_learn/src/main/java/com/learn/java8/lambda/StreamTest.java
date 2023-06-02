@@ -32,6 +32,7 @@ public class StreamTest {
             // list 有元素的
             return null;
         }).collect(Collectors.toList());
+        // String[] userIdArray = depUserList.stream().map(SysUser::getId).toArray(String[]::new);
 
         System.out.println(patternIgnoreTables.size());
     }

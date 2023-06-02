@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 /**
  * ClassName:testFile
  * Package:PACKAGE_NAME
