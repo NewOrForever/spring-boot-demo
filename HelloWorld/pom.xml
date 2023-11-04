@@ -56,8 +56,24 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+<!--            <plugin>-->
+<!--                <groupId>@project.groupId@</groupId>-->
+<!--                <artifactId>my-maven-plugin</artifactId>-->
+<!--                <version>@project.version@</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>touch</id>-->
+<!--                        <phase>validate</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>touch</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
     </build>
+
 
 
 </project>

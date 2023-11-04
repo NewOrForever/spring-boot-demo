@@ -73,6 +73,7 @@ public class TestMap {
         map.put("key002", "val002");
         map.put("key005", "val005");
         map.put("key004", "val004");
+        Object key = map.get("key");
 
         // 按照key有序
         Map treeMap = new TreeMap(map);

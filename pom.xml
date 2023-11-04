@@ -22,6 +22,7 @@
         <module>demo_validator</module>
         <module>java_learn</module>
         <module>activiti_learn</module>
+        <module>maven-learn</module>
     </modules>
 
     <properties>
@@ -107,6 +108,26 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
+                </plugin>
+
+                <!--maven 自定义插件使用-->
+                <plugin>
+                    <groupId>com.example.boot</groupId>
+                    <artifactId>my-maven-plugin</artifactId>
+                    <version>1.0.0-SNAPSHOT</version>
+                    <executions>
+                        <execution>
+                            <id>touch</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>touch</goal>
+                            </goals>
+                            <configuration>
+                                <sex>1</sex>
+                                <describe>测试</describe>
+                            </configuration>
+                        </execution>
+                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>

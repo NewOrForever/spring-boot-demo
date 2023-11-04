@@ -23,6 +23,7 @@
         <module name="gt_restful_sdk" />
         <module name="demo_ioc" />
         <module name="demo_ioc_import" />
+        <module name="my-maven-plugin" />
         <module name="java_learn" />
         <module name="boot" />
         <module name="demo_ioc_configuration" />
@@ -41,10 +42,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="HelloWorld" options="-parameters" />
       <module name="activiti_demo" options="-parameters" />
-      <module name="activiti_learn" options="-parameters" />
+      <module name="activiti_learn" options="" />
       <module name="activity_learn" options="-parameters" />
       <module name="boot" options="-parameters" />
-      <module name="boot-demo" options="-parameters" />
+      <module name="boot-demo" options="" />
       <module name="demo-common" options="" />
       <module name="demo-validator" options="" />
       <module name="demo_common" options="-parameters" />
@@ -61,6 +62,8 @@
       <module name="factories" options="-parameters" />
       <module name="gt_restful_sdk" options="" />
       <module name="java_learn" options="-parameters" />
+      <module name="maven-learn" options="" />
+      <module name="my-maven-plugin" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>
   </component>

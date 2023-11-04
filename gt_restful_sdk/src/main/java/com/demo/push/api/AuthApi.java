@@ -1,5 +1,6 @@
 package com.demo.push.api;
 
+import com.demo.push.annotation.RestApi;
 import com.demo.push.annotation.method.MyDelete;
 import com.demo.push.annotation.method.MyPost;
 import com.demo.push.annotation.param.BodyParam;
@@ -16,6 +17,7 @@ import com.demo.push.dto.req.AuthDTO;
  * @Date:2023/4/3 17:09
  * @Author:qs@1.com
  */
+@RestApi
 public interface AuthApi {
     /**
      * 获取鉴权token接口
