@@ -22,7 +22,8 @@
         <module>demo_validator</module>
         <module>java_learn</module>
         <module>activiti_learn</module>
-        <module>maven-learn</module>
+        <!--<module>maven-learn</module>-->
+        <module>minio</module>
     </modules>
 
     <properties>

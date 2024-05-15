@@ -1,0 +1,16 @@
+oss:
+  name: minio
+  accessKey: admin
+  secretKey: yh@miniIOtest
+  endpoint: http://192.168.50.67:9000
+
+SPRING:
+  SWAGGER2:
+    ENABLED: true
+
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB

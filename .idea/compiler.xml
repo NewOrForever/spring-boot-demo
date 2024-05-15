@@ -13,6 +13,7 @@
         <module name="my_rest_sdk" />
         <module name="demo_ioc_mybatis_generator" />
         <module name="demo_ioc_factories_core" />
+        <module name="minio" />
         <module name="demo_ioc_scan" />
         <module name="factories" />
         <module name="demo_validator" />
@@ -63,6 +64,7 @@
       <module name="gt_restful_sdk" options="" />
       <module name="java_learn" options="-parameters" />
       <module name="maven-learn" options="" />
+      <module name="minio" options="-parameters" />
       <module name="my-maven-plugin" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>
