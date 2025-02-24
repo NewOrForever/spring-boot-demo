@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot-demo.iml" filepath="$PROJECT_DIR$/boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_common/demo_common.iml" filepath="$PROJECT_DIR$/demo_common/demo_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ioc_factories/demo_ioc_factories.iml" filepath="$PROJECT_DIR$/demo_ioc_factories/demo_ioc_factories.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ioc_factories_core/demo_ioc_factories_core.iml" filepath="$PROJECT_DIR$/demo_ioc_factories_core/demo_ioc_factories_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_learn/java_learn.iml" filepath="$PROJECT_DIR$/java_learn/java_learn.iml" />
     </modules>
   </component>
 </project>
