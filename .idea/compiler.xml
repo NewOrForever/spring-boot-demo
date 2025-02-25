@@ -14,7 +14,6 @@
         <module name="demo_ioc_mybatis_generator" />
         <module name="demo_ioc_factories_core" />
         <module name="minio" />
-        <module name="log_learn" />
         <module name="demo_ioc_scan" />
         <module name="factories" />
         <module name="demo_validator" />
@@ -26,6 +25,7 @@
         <module name="demo_ioc" />
         <module name="demo_ioc_import" />
         <module name="my-maven-plugin" />
+        <module name="bloom_filter_learn" />
         <module name="java_learn" />
         <module name="boot" />
         <module name="demo_ioc_configuration" />
@@ -37,6 +37,7 @@
       <module name="demo-validator" target="1.7" />
       <module name="demo_ioc_factories" target="1.8" />
       <module name="demo_ioc_factories_core" target="1.8" />
+      <module name="log_learn" target="1.8" />
       <module name="my_restful_sdk" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -46,6 +47,7 @@
       <module name="activiti_demo" options="-parameters" />
       <module name="activiti_learn" options="" />
       <module name="activity_learn" options="-parameters" />
+      <module name="bloom_filter_learn" options="-parameters" />
       <module name="boot" options="-parameters" />
       <module name="boot-demo" options="" />
       <module name="demo-common" options="" />

@@ -24,7 +24,7 @@
         <module>activiti_learn</module>
         <!--<module>maven-learn</module>-->
         <module>minio</module>
-        <module>log_learn</module>
+<!--        <module>log_learn</module>-->
     </modules>
 
     <properties>
