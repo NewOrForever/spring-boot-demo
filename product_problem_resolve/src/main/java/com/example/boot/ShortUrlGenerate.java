@@ -51,14 +51,34 @@ public class ShortUrlGenerate {
         int hashValue32 = hf32.hashString(longUrl, Charsets.UTF_8).asInt();
         System.out.println("MurmurHash3_32: " + hashValue32);
 
+        /**
+         * 128位哈希
+         *  - 128位哈希值更长
+         *  - 但是冲突更少
+         *  根据实际情况选择 32 位或 128 位哈希
+          */
+        /*HashFunction hash128 = Hashing.murmur3_128();
+        byte[] hashBytes = hash128.hashString(longUrl, Charsets.UTF_8).asBytes(); // 获取 128 位哈希值的字节数组
+        String hashValue128 = bytesToHexString(hashBytes);
+        System.out.println("MurmurHash3_128 (bytes): " + hashValue128);*/
+
         String shortKey = Base62Encoder.toBase62(hashValue32);
-        System.out.println("Base62: " + shortKey);
+        System.out.println("Base62 for hash32: " + shortKey);
 
         // 测试 Base62 解码
         long originHash32 = Base62Encoder.fromBase62(shortKey);
         System.out.println("Origin Hash32: " + originHash32);
 
         return shortKey;
+    }
+
+    // 辅助方法: 将字节数组转换为十六进制字符串
+    public static String bytesToHexString(byte[] bytes) {
+        StringBuilder sb = new StringBuilder();
+        for (byte b : bytes) {
+            sb.append(String.format("%02x", b));
+        }
+        return sb.toString();
     }
 }
 
