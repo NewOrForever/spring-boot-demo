@@ -20,6 +20,7 @@
         <module name="spring-learn" />
         <module name="activiti_demo" />
         <module name="demo_ioc_factories" />
+        <module name="product_problem_resolve" />
         <module name="HelloWorld" />
         <module name="gt_restful_sdk" />
         <module name="demo_ioc" />
@@ -70,6 +71,7 @@
       <module name="maven-learn" options="" />
       <module name="minio" options="-parameters" />
       <module name="my-maven-plugin" options="-parameters" />
+      <module name="product_problem_resolve" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>
   </component>
