@@ -23,6 +23,7 @@
         <module name="product_problem_resolve" />
         <module name="HelloWorld" />
         <module name="gt_restful_sdk" />
+        <module name="caffeine" />
         <module name="demo_ioc" />
         <module name="demo_ioc_import" />
         <module name="my-maven-plugin" />
@@ -51,6 +52,7 @@
       <module name="bloom_filter_learn" options="-parameters" />
       <module name="boot" options="-parameters" />
       <module name="boot-demo" options="" />
+      <module name="caffeine" options="-parameters" />
       <module name="demo-common" options="" />
       <module name="demo-validator" options="" />
       <module name="demo_common" options="-parameters" />
