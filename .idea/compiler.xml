@@ -10,27 +10,28 @@
         <module name="demo_ioc_mybatis" />
         <module name="demo_common" />
         <module name="demo_ioc_mybatis_multi_datasource" />
-        <module name="my_rest_sdk" />
         <module name="demo_ioc_mybatis_generator" />
         <module name="demo_ioc_factories_core" />
         <module name="minio" />
-        <module name="demo_ioc_scan" />
         <module name="factories" />
         <module name="demo_validator" />
-        <module name="spring-learn" />
         <module name="activiti_demo" />
-        <module name="demo_ioc_factories" />
-        <module name="product_problem_resolve" />
-        <module name="HelloWorld" />
-        <module name="gt_restful_sdk" />
         <module name="caffeine" />
-        <module name="demo_ioc" />
         <module name="demo_ioc_import" />
         <module name="my-maven-plugin" />
         <module name="bloom_filter_learn" />
-        <module name="java_learn" />
         <module name="boot" />
         <module name="demo_ioc_configuration" />
+        <module name="my_rest_sdk" />
+        <module name="demo_ioc_scan" />
+        <module name="spring-learn" />
+        <module name="demo_ioc_factories" />
+        <module name="product_problem_resolve" />
+        <module name="jetcache" />
+        <module name="HelloWorld" />
+        <module name="gt_restful_sdk" />
+        <module name="demo_ioc" />
+        <module name="java_learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -69,6 +70,7 @@
       <module name="factories" options="-parameters" />
       <module name="gt_restful_sdk" options="" />
       <module name="java_learn" options="-parameters" />
+      <module name="jetcache" options="-parameters" />
       <module name="log_learn" options="" />
       <module name="maven-learn" options="" />
       <module name="minio" options="-parameters" />

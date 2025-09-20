@@ -25,6 +25,7 @@
         <!--<module>maven-learn</module>-->
         <module>minio</module>
         <module>caffeine</module>
+        <module>jetcache</module>
         <!--        <module>log_learn</module>-->
     </modules>
 

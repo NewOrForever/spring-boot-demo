@@ -32,7 +32,7 @@ import java.util.concurrent.TimeUnit;
  * @see AutoProxyRegistrar -> 注册 BeanPostProcessor {@link InfrastructureAdvisorAutoProxyCreator}
  * @see ProxyCachingConfiguration -> 注册 Advisor、PointCut、MethodInterceptor
  * 入口 bean 创建时执行 BeanPostProcessor：{@link AbstractAutoProxyCreator#postProcessAfterInitialization(Object, String)}
- *      - 如果时循环引用的 Bean 的话应该是提前 AOP 的：{@link AbstractAutoProxyCreator#getEarlyBeanReference(Object, String)}
+ *      - 如果是循环引用的 Bean 的话应该是提前 AOP 的：{@link AbstractAutoProxyCreator#getEarlyBeanReference(Object, String)}
  */
 @Configuration
 @EnableCaching // 启用 spring cache
